@@ -1,0 +1,46 @@
+@import "variables"
+@import "mixins"
+
+body 
+	font: $regular-size $font-stack
+	color: $dark-grey
+
+a 
+	color: $white
+
+	&:hover
+		text-decoration: none
+		color: $white
+		opacity: 1
+		@include transition(color)
+
+.header_home 
+	height: 100vh
+	background: url("../img/baner-home.jpg") center center
+	background-size: cover
+
+.header_home_top
+	line-height: 36px
+	background-color: rgba($dark-grey, 0.66)
+	padding: 10px 0
+
+.socials
+	font-size: 36px
+	margin:
+		left: 5px
+		right: 5px
+
+	color: rgba($white, 0.65)
+
+.menu_block
+	text-align: right
+	a 
+		font-weight: 800
+		border-bottom:  1px solid rgba($white, 0)
+
+		&:hover
+			border-bottom:  1px solid rgba($white, 1)
+			@include transition(border-bottom)
+
+
+	

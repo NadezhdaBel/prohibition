@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font: 24px "Open Sans", sans-serif;
+  color: #2B2A29; }
+
+a {
+  color: #fff; }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out; }
+
+.header_home {
+  height: 100vh;
+  background: url("../img/baner-home.jpg") center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.header_home_top {
+  line-height: 36px;
+  background-color: rgba(43, 42, 41, 0.66);
+  padding: 10px 0; }
+
+.socials {
+  font-size: 36px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.65); }
+
+.menu_block {
+  text-align: right; }
+  .menu_block a {
+    font-weight: 800;
+    border-bottom: 1px solid rgba(255, 255, 255, 0); }
+    .menu_block a:hover {
+      border-bottom: 1px solid white;
+      -webkit-transition: border-bottom 0.5s ease-in-out;
+      -o-transition: border-bottom 0.5s ease-in-out;
+      transition: border-bottom 0.5s ease-in-out; }
